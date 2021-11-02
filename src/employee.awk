@@ -13,7 +13,7 @@ BEGIN {
 	numOfEmp = 0;
 	
 	# heading
-	printf "%-10s %-10s %-10s %-20s %-10s %-10s\n", "First", "Last", "Gender", "Year Of Joining", "Age", "Salary";
+	printf "%-14s %-14s %-10s %-20s %-10s %-10s\n", "First", "Last", "Gender", "Year Of Joining", "Age", "Salary";
 }
 {
 	# ingore the first line
@@ -37,7 +37,7 @@ BEGIN {
 		averageSalary = averageSalary + $26;
 
 		# print the data of each person
-		printf "%-10s %-10s %-10s %-20s %-10s %-10s\n", $3 ,$5 ,$6 ,$18 ,$25 ,$26;
+		printf "%-14s %-14s %-10s %-20s %-10s %-10s\n", $3 ,$5 ,$6 ,$18 ,$25 ,$26;
 	}
 }
 END {
